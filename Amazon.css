@@ -1,0 +1,723 @@
+*{
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    border: border-box;
+}
+
+#navbar{
+    height: 60px;
+    background-color: #131921;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#navlogo{
+    width: 113px;
+    height: 50px;
+    background-image: url("Image/Amazonlogo.png");
+    background-size: cover;
+    cursor: pointer;
+}
+#navaddress{
+    height: 50px;
+    width: 88.64px;
+    cursor: pointer; 
+}
+.v:hover{
+    border: 1px solid #fff;
+}
+p1{
+    margin-left: 14px;
+    color: #cccccc;
+    font-size: 14px;
+}
+#navaddressaddress{
+    display:flex;
+}
+#locationlogo{
+    height: 18px;
+    width: 15px;
+    color:white;
+}
+p2{
+    color: #ffffff;
+    font-size: 16px;
+}
+#navsearch{
+    display:flex;
+}
+#searchsecond{
+    display: flex;
+}
+#navsearchall{
+    height: 40px;
+    width :52px;
+    background-color: #E6E6E6;
+    color:#0f1111;
+}
+#navsearchtype{
+    height: 36px;
+    width:650px;
+    font-size: 16px;
+}
+#searchmagnify{
+    background-color: #febd68;
+    position: relative;
+    top:0.49px;
+    height: 39px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#magnify{
+    font-size: 20px;
+}
+#navlanguage{
+    width: 56px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#languageflag{
+    width: 22px;
+    height: 17px;
+    background-image: url("Image/Americaflag.webp");
+    background-size: cover;
+    display: flex;
+}
+#languagemargin{
+    color: white;
+    margin-left: 2px;
+    width: 18px;
+    height: 16px;
+    font-size:14px;
+    display: flex;
+}
+#option{
+    width: 20px;
+    color: white;
+    background-color: #131921;
+    border: none;
+}
+#option:active{
+    border: none;
+}
+#message{
+    width: 131px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+#mainmessage{
+    display: flex;
+    align-items: center;
+}
+#messageoption{
+    display: flex;
+}
+#option1{
+    padding-top: 20px;
+    height:10px;
+    color: white;
+    background-color: #131921;
+    border: none;
+}
+#message2{
+    color: white;
+    height:50px;
+    width: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+p4{
+    font-size: 15px;
+}
+#cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+
+}
+#cartlogo{
+    font-size:20px;
+}
+#navbar2{
+    height: 39px;
+    background-color: #1d2020ec;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+#navbar2 a{
+    padding: 10px;
+}
+#navbar2 a:hover{
+    border:1px solid #fff;
+}
+#navbar2logo{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 25px;
+}
+#content{
+    height:400px;
+    background-image: url("Image/background.jpg");
+    background-size: cover;
+    padding-top: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#impmessage{
+    animation: motion 25s linear 0.5s infinite normal;
+}
+@keyframes motion {
+    0%{
+    color: red;
+    }
+    100%{ 
+        color: green;
+    }
+}
+.boxxx:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+#conten1{
+    height: 40px;
+    background-color: #f5f6f6;
+    display: flex;
+    align-items: center;
+}
+#box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#box1{
+    height: 385px;
+    width: 266px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+#pp{
+    cursor: pointer;
+}
+#box1message{
+    width: 260px;
+    height: 27px;
+    font-size: 21px;
+    padding-top: 20px;
+    color: #0f1111;
+    display: flex;
+    align-items: center;
+}
+#box1image{
+    margin-top: 10px;
+    width:260px;
+    height: 282px;
+    background-image: url("Image/PC.jpg");
+    background-size: cover;
+}
+#box1message2{
+    margin-top: 10px;
+    width: 260px;
+    height: 16px;
+    color: #007185;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+
+}
+#box2{
+    height: 385px;
+    width: 266px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+#box2image{
+    margin-top: 10px;
+    width:260px;
+    height: 282px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#box2image1{
+    width: 130px;
+    background-image: url("Image/Handset.jpg");
+    background-size: cover;
+}
+#box2image2{
+    width: 130px;
+    background-image: url("Image/Keyboards.jpg");
+    background-size: cover;
+}
+#box2image3{
+    width: 130px;
+    background-image: url("Image/Mouse.jpg");
+    background-size: cover;
+}
+#box2image4{
+    width: 130px;
+    background-image: url("Image/Chair.jpg");
+    background-size: cover;
+}
+#box3{
+    height: 385px;
+    width: 266px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+#box3image1{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box3img1.jpg");
+    background-size: cover;
+}
+#box3image2{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box3img2.jpg");
+    background-size: cover;
+}
+#box3image3{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box3img3.jpg");
+    background-size: cover;
+}
+#box3image4{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box3img4.jpg");
+    background-size: cover;
+}
+#box4{
+    height: 385px;
+    width: 266px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+#box4image1{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box4img1.jpg");
+    background-size: cover;
+}
+#box4image2{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box4img2.jpg");
+    background-size: cover;
+}
+#box4image3{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box4img3.jpg");
+    background-size: cover;
+}
+#box4image4{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box4img4.jpg");
+    background-size: cover;
+}
+#content2{
+    height: 1230px;
+    background-color: grey;
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#boxmain2{
+    height:1230px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#box21{
+    height: 385px;
+    width: 266px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+#box21image1{
+    width: 260px;
+    height: 161px;
+    background-image: url("Image/box21img1.jpg");
+    background-size: cover;
+}
+#box21image2{
+    width: 73px;
+    height: 101px;
+    background-image: url("Image/box21img2.jpg");
+    background-size: cover;
+}
+#box21image3{
+    width: 73px;
+    height: 101px;
+    background-image: url("Image/box21img3.jpg");
+    background-size: cover;
+}
+#box21image4{
+    width: 73px;
+    height: 101px;
+    background-image: url("Image/box21img4.jpg");
+    background-size: cover;
+}
+#box22{
+    height: 385px;
+    width: 266px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+#box22image{
+    margin-top: 10px;
+    width:260px;
+    height: 282px;
+    background-image: url("Image/Toys.jpg");
+    background-size: cover;
+}
+#box23{
+    height: 385px;
+    width: 266px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+#box23image{
+    margin-top: 10px;
+    width:260px;
+    height: 282px;
+    background-image: url("Image/Home\ decoration.jpg");
+    background-size: cover;
+}
+#box24{
+    height: 385px;
+    width: 266px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+#box24image1{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box24img1.jpg");
+    background-size: cover;
+}
+#box24image2{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box24img2.jpg");
+    background-size: cover;
+}
+#box24image3{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box24img3.jpg");
+    background-size: cover;
+}
+#box24image4{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box24img4.jpg");
+    background-size: cover;
+}
+#box25{
+    height: 385px;
+    width: 266px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+#box25image1{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box25img1.jpg");
+    background-size: cover;
+}
+#box25image2{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box25img2.jpg");
+    background-size: cover;
+}
+#box25image3{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box25img3.jpg");
+    background-size: cover;
+}
+#box25image4{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box25img4.jpg");
+    background-size: cover;
+}
+#box26{
+    height: 385px;
+    width: 266px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+#box26image{
+    margin-top: 10px;
+    width:260px;
+    height: 282px;
+    background-image: url("Image/smartwatches.jpg");
+    background-size: cover;
+}
+#box27{
+    height: 385px;
+    width: 266px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+#box27image1{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box27img1.jpg");
+    background-size: cover;
+}
+#box27image2{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box27img2.jpg");
+    background-size: cover;
+}
+#box27image3{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box27img3.jpg");
+    background-size: cover;
+}
+#box27image4{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box27img4.jpg");
+    background-size: cover;
+}
+#box28{
+    height: 385px;
+    width: 266px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+#box28image{
+    margin-top: 10px;
+    width:260px;
+    height: 282px;
+    background-image: url("Image/Shoes.jpg");
+    background-size: cover;
+}
+#box29{
+    height: 385px;
+    width: 266px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+#box29image1{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box29img1.jpg");
+    background-size: cover;
+}
+#box29image2{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box29img2.jpg");
+    background-size: cover;
+}
+#box29image3{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box29img3.jpg");
+    background-size: cover;
+}
+#box29image4{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box29img4.jpg");
+    background-size: cover;
+}
+#box30{
+    height: 385px;
+    width: 266px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+#box30image1{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box30img1.jpg");
+    background-size: cover;
+}
+#box30image2{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box30img2.jpg");
+    background-size: cover;
+}
+#box30image3{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box30img3.jpg");
+    background-size: cover;
+}
+#box30image4{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box30img4.jpg");
+    background-size: cover;
+}
+#box31{
+    height: 385px;
+    width: 266px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+#box31image1{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box31img1.jpg");
+    background-size: cover;
+}
+#box31image2{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box31img2.jpg");
+    background-size: cover;
+}
+#box31image3{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box31img3.jpg");
+    background-size: cover;
+}
+#box31image4{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box31img4.jpg");
+    background-size: cover;
+}
+#box32{
+    height: 385px;
+    width: 266px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+#box32image1{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box32img1.jpg");
+    background-size: cover;
+}
+#box32image2{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box32img2.jpg");
+    background-size: cover;
+}
+#box32image3{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box32img3.jpg");
+    background-size: cover;
+}
+#box32image4{
+    width: 120px;
+    height: 131px;
+    background-image: url("Image/box32img4.jpg");
+    background-size: cover;
+}
+#signin1{
+    color:#000000;
+    height: 126px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#signinmessage1{
+    height:15px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#siginbutton{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#b1{
+    width: 230px;
+    height: 28px;
+    font-size: 16px;
+    background-color: #febd68;
+    color:#000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#signinmessage2{
+    height: 15px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer{
+    background-color: #1d2020ec;
+    height: 39px;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+#footer2{
+    height: 735px;
+    background-color: #131921;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    font-weight: lighter;
+}
+p6{
+    font-size: 20px;
+    font-weight: bold;
+}
+p7{
+    color:#007185
+}
