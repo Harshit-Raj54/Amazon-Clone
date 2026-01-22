@@ -24,6 +24,7 @@
     height: 50px;
     width: 88.64px;
     cursor: pointer; 
+    color: #fff;
 }
 .v:hover{
     border: 1px solid #fff;
@@ -720,4 +721,5 @@ p6{
 }
 p7{
     color:#007185
+
 }
